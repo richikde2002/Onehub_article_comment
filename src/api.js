@@ -21,7 +21,7 @@ export const addComment = async (
   knowledgeId 
 ) => {
   try {
-    const url = new URL(`${baseURL}/createComment_testing`);
+    const url = new URL(`${baseURL}/createComment`);
     url.searchParams.append("territory_id", (territoryId)); // Encode spaces and special characters
     url.searchParams.append("knowledge_id", encodeURIComponent(knowledgeId));
     url.searchParams.append("comments", (comments));
