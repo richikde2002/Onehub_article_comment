@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./GoogleSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .font-google-sans {
+    font-family: 'Google Sans', sans-serif;
+  }
