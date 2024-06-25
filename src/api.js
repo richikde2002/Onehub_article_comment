@@ -51,7 +51,7 @@ export const replyComment = async (
   replyId
 ) => {
   try {
-    const url = new URL(`${baseURL}/replyComment_testing`);
+    const url = new URL(`${baseURL}/replyComment`);
     url.searchParams.append("territory_id", (territoryId));
     url.searchParams.append("knowledge_id", (knowledgeId));
     url.searchParams.append("reply_id", replyId);
