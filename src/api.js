@@ -1,5 +1,5 @@
 import axios from "axios";
-export const baseURL = "https://gcptest.testexperience.site";
+export const baseURL = "https://gcpprod.testexperience.site";
 export const getComments = async (id) => {
   try {
     const response = await axios.get(
