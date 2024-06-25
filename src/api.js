@@ -3,7 +3,7 @@ export const baseURL = "https://gcptest.testexperience.site";
 export const getComments = async (id) => {
   try {
     const response = await axios.get(
-      `${baseURL}/fetchcommentsByArticle_testing/${id}`
+      `${baseURL}/fetchcommentsByArticle/${id}`
     );
     if (response.status !== 200) {
       throw new Error(`Error fetching comments: ${response.status}`);
